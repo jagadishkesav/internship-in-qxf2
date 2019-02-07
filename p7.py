@@ -1,6 +1,8 @@
 from pgmpy.models import BayesianModel
 from pgmpy.factors.discrete import TabularCPD
 from pgmpy.inference import VariableElimination
+
+#cgngcgbcn
 import pgmpy
  #Define a Structure with nodes and edge
 cancer_model = BayesianModel([('Pollution', 'Cancer'),
